@@ -4,6 +4,10 @@ This workshops guides you through using Pulumi's []
 
 Before you can use the workshop, there are some steps you need to take.
 
+If you'd like to open the workshop in a preconfigured environment, you can open it with GitPod
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/jaxxstorm/pulumi-azurenative-workshop)
+
 ## Installing Prerequisites
 
 The hands-on workshop will walk you through various tasks of managing Azure infrastructure with the focus on serverless compute and managed Azure services. The prerequisites listed below are required to successfully complete them.
