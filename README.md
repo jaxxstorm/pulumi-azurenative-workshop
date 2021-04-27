@@ -1,6 +1,6 @@
 # pulumi-azurenative-workshop
 
-This workshops guides you through using Pulumi's []
+This workshops guides you through using Pulumi's [Azure Native](https://www.pulumi.com/docs/intro/cloud-providers/azure/) provider.
 
 Before you can use the workshop, there are some steps you need to take.
 
