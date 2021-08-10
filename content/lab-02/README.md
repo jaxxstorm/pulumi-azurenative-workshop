@@ -180,4 +180,4 @@ curl $(pulumi stack output url)
 
 # Next Steps
 
-* [Deploy with Docker](../lab-02/README.md)
+* [Deploy with Docker](../lab-03/README.md)
