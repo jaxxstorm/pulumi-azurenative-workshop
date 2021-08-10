@@ -172,6 +172,12 @@ Outputs:
     url: "https://app793a46fd.z22.web.core.windows.net/"
 ```
 
+Check out the website!
+
+```
+curl $(pulumi stack output url)
+```
+
 # Next Steps
 
-* [Deploy with Docker](../lab-02/README.md)
+* [Deploy with Docker](../lab-03/README.md)
