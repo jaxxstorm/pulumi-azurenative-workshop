@@ -411,3 +411,9 @@ Rerun your `pulumi up` and you'll see a new field:
 Outputs:
   + webAppUrl: "https://app8570cf33.azurewebsites.net"
 ```
+
+Check out the result!
+
+```
+curl $(pulumi stack output webAppUrl)
+```
