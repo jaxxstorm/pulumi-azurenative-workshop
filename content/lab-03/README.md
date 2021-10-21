@@ -215,13 +215,7 @@ const image = new docker.Image("app", {
 
 Now, we need to actually deploy this Docker container. We'll use Azure's [Web App](https://azure.microsoft.com/en-us/services/app-service/web/) service for this.
 
-Our final import will be the web resource. Add the following to your imports:
-
-```typescript
-import * as web from "@pulumi/azure-native/web";
-```
-
-And then define your webapp, like so:
+At the end of your program, define your webapp, like so:
 
 ```typescript
 const app = new web.WebApp("app", {
