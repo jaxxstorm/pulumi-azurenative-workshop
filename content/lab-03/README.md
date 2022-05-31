@@ -417,3 +417,35 @@ Check out the result!
 ```
 curl $(pulumi stack output webAppUrl)
 ```
+
+## Step 4 &mdash; Cleaning up
+
+Whenever you're working on learning something new with Pulumi, it's always a
+good idea to clean up any resources you've created so you don't get charged on a
+free tier or otherwise leave behind resources you'll never use. Let's clean up.
+
+Run the `pulumi destroy` command to remove all of the resources:
+
+```bash
+$ pulumi destroy
+Previewing destroy (dev)
+
+View Live: https://app.pulumi.com/<org>/<project>/<stack>/previews/<build-id>
+
+...
+Do you want to perform this destroy? yes
+Destroying (dev)
+
+View Live: https://app.pulumi.com/<org>/<project>/<stack>/updates/<update-id>
+
+...
+
+The resources in the stack have been deleted, but the history and configuration associated with the stack are still maintained.
+If you want to remove the stack completely, run 'pulumi stack rm dev'.
+```
+
+Now your resources should all be cleared! That last comment you see in the
+output notes that the stack and all of the configuration and history will stay
+in your dashboard on the Pulumi Service ([app.pulumi.com](https://app.pulumi.com/)).
+
+If you want to completely remove the project and its history, r un `pulumi stack rm dev`.
