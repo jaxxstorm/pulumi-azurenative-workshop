@@ -418,7 +418,7 @@ Check out the result!
 curl $(pulumi stack output webAppUrl)
 ```
 
-## Step 4 &mdash; Cleaning up
+## Step 5 &mdash; Cleaning up
 
 Whenever you're working on learning something new with Pulumi, it's always a
 good idea to clean up any resources you've created so you don't get charged on a
