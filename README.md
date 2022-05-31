@@ -54,6 +54,8 @@ $ az
 Welcome to the cool new Azure CLI!
 ```
 
+If you are running this workshop in Gitpod, use the command `az login --use-device-code` to log into your Azure subscription.
+
 ### Pulumi
 
 You will use Pulumi to depoy infrastructure changes using code. [Install Pulumi here](https://www.pulumi.com/docs/get-started/install/). After installing the CLI, verify that it is working:
